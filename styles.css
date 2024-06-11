@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	background-color:white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header 1 */
+.top {
+    background-image:url("https://www.kayak.com.ph/rimg/himg/28/54/f0/ice-134036-68659024_3XL-700233.jpg?width=1366&height=768&crop=true");
+    color: white;
+    padding: 10px 0;
+}
+
+.header-top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top .logo h1 {
+    margin: 0;
+}
+
+.header-top .contact-info p {
+    margin: 5px 0;
+}
+btn{
+	font-family:Arial;
+	color:green;
+}
+
+/* Header 2 */
+.header-nav {
+    background-color:#17252A;
+    padding: 10px 0;
+	
+}
+
+.header-nav nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-nav nav ul li {
+    margin: 0 15px;
+}
+
+.header-nav nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header-nav nav ul li a:hover {
+    color: #007BFF;
+}
+  
+       h1 {
+		   text-align:center;
+		   font-family:Blackadder ITC;
+		   color:#fa8f04;
+		  font-size:50px;
+		 line-height:0%;
+	   }
+	    h2{
+		   text-align:center;
+		   font-family:Verdana;
+		   color:#fff;
+		  font-size:50px;
+
+	   }
+	   h3{
+		   font-family:Verdana;
+text-align:center;		   
+	   }
+	    
+/* Main Content */
+main {
+    padding: 20px 0;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+	height:40px;
+    padd
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9800;
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e68900;
+}
+.div2
+    {
+      width: 35%;
+      height:650px;
+      background-color:#ABD5AB ;
+      float:left;
+	  text-align:center;
+	  }
+  .image2{
+			 width: 9%;
+			 height:18px;
+			 margin-top: 10px;
+    }
+
+        

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.book-now {
+    background: url('hotel.jpg') no-repeat center center/cover;
+    padding: 60px 0;
+    color: #fff;
+    text-align: center;
+}
+.book-now .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+input{ display:block;
+	   margin-bottom: 1em;
+}
+label{ float:left;
+	   width: 5em;
+	   padding-right: 1em;
+	   text-align:right;
+}
+#submmit{ margin-left: 7em;
+}
+.btn {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9800;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e68900;
+}
+</style>
+</head>
+<body>
+<section class="book-now">
+        <div class="container">
+            <h2>Book Your Stay </h2>
+<form mehtod="post"
+	  action="http://webdevbasics.net/scripts/demo.php"
+	  onsubmit="return validateForm();">
+	  
+<label for="userName">Name: </label>
+<input type="text" name="userName" id="userName">
+<br>
+<br>
+<label for="userName">Address: </label>
+<input type="text" name="userName" id="userName">
+<br>
+<br>
+<label for="userName">Email: </label>
+<input type="text" name="userName" id="userName">
+<br>
+<br>
+<label for="userName">Your group: </label>
+<input type="text" name="userName" id="userName">
+<br>
+<br>
+<label for="userName">Check-in date: </label>
+<input type="text" name="userName" id="userName">
+<br>
+<br>
+<label for="userName">Check-out date: </label>
+<input type="text" name="userName" id="userName">
+<br>
+<br>
+
+ 
+<button type="submit" class="btn">Book Now</button>
+</form>
+</body>
+</html>
